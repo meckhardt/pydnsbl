@@ -140,7 +140,7 @@ class DblSpamhaus(Provider):
 _DOMAIN_PROVIDERS = [
     'uribl.spameatingmonkey.net',
     'multi.surbl.org',
-    'rhsbl.sorbs.net '
+    'rhsbl.sorbs.net'
 ]
 
 BASE_PROVIDERS = [Provider(host) for host in _BASE_PROVIDERS] + [ZenSpamhaus()]
